@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  height: 60px;
+  background-color: rgb(9, 34, 15);
+  color: rgb(183, 228, 198);
+  align-items: center;
+  padding: 0 100px;
+  font-size: 30px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.navitem {
+  display: inline;
+  margin-right: 30px;
+  font-size: 24px;
+  color: rgb(183, 228, 198);
+  cursor: pointer;
+  box-shadow: 3px 3px #888888;
+  border-radius: 10px;
+  background-color: rgb(14, 53, 23);
+}
+
+.title:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.title:active {
+  text-decoration: underline;
+  color: rgb(182, 235, 182);
+}
+
+.chat {
+  background-color: rgb(183, 228, 198);
+  color: rgb(9, 34, 15);
+
+  display: inline;
+  margin-right: 30px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: "reenie beanie";
+  box-shadow: 5px 5px #888888;
+}

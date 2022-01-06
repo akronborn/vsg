@@ -1,0 +1,14 @@
+# Node
+node_modules
+
+# Next
+.next
+
+prettier.config.js
+
+#GIT
+.git 
+
+# ENV
+.ENV
+

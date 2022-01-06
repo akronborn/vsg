@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  height: 40px;
+  background-color: rgb(253, 255, 253);
+  color: rgb(18, 49, 25);
+  align-items: center;
+  padding: 25px;
+  font-size: 20px;
+  justify-content: center;
+  border-style: inset;
+  /* font-weight: bold; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  overflow: hidden;
+}
+
+.h4 {
+  padding-left: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

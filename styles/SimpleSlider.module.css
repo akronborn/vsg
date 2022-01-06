@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  color: rgb(9, 34, 15);
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  justify-content: center;
+  border-style: inset;
+  /* font-weight: bold; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  overflow: hidden;
+}
+
+.p {
+  text-align: center;
+  color: black;
+  font-family: system-ui;
+  font-weight: lighter;
+}
