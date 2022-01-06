@@ -126,4 +126,6 @@ dist
 .DS_Store
 
 .dockerignore
- 
+
+
+package-lock.json
