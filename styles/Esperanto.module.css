@@ -18,3 +18,9 @@
   font-family: system-ui;
   font-size: 18px;
 }
+
+.link {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* color: rgb(183, 228, 198);
+  background-color: white; */
+}
