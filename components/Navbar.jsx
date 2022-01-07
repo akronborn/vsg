@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Navbar.module.css";
@@ -6,6 +6,8 @@ import icon3 from "../public/icon3.png";
 import icon1 from "../public/icon1.png";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className={styles.container}>
       <Link href="/">
@@ -17,20 +19,51 @@ const Navbar = () => {
           <Image src={icon1} alt="green star photo" className={styles.image} />
         </a>
       </Link>
-      <ul className={styles.navlist}>
-        <li className={styles.navitem}>
+      <ul className={styles.list}>
+        <li className={styles.listItem}>
           <Link href="/about">About VSK</Link>
         </li>
-        <li className={styles.navitem}>
+        <li className={styles.listItem}>
           <Link href="/schedule">Schedule</Link>
         </li>
-        <li className={styles.navitem}>
+        <li className={styles.listItem}>
           <Link href="/esperanto">Esperanto</Link>
         </li>
         <li className={styles.chat}>
           <a href="https://vsg-chat.onrender.com/">Chat</a>
         </li>
-        <li className={styles.navitem}>
+        <li className={styles.listItem}>
+          <Link href="/contact">Contact</Link>
+        </li>
+      </ul>
+
+      <div className={styles.hamburger} onClick={() => setOpen(!open)}>
+        <div className={styles.line} />
+        <div className={styles.line} />
+        <div className={styles.line} />
+      </div>
+
+      <ul
+        onClick={() => setOpen(false)}
+        className={styles.menu}
+        style={{ right: open ? "0px" : "-50vw" }}
+      >
+        <li className={styles.menuItem}>
+          <Link href="/">VSG</Link>
+        </li>
+        <li className={styles.menuItem}>
+          <Link href="/about">About VSK</Link>
+        </li>
+        <li className={styles.menuItem}>
+          <Link href="/schedule">Schedule</Link>
+        </li>
+        <li className={styles.menuItem}>
+          <Link href="/esperanto">Esperanto</Link>
+        </li>
+        <li className={styles.menuItem}>
+          <a href="https://vsg-chat.onrender.com/">Chat</a>
+        </li>
+        <li className={styles.menuItem}>
           <Link href="/contact">Contact</Link>
         </li>
       </ul>
