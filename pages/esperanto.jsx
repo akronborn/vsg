@@ -9,7 +9,9 @@ const Esperanto = () => {
     <Link href="http://lernu.net">Lernu.net</Link>,
     <Link href="https://www.duolingo.com">Duolingo</Link>,
     <Link href="https://www.reddit.com/r/Esperanto/">Esperanto Reddit</Link>,
-    <Link href="https://www.youtube.com/watch?v=UU0TCz9DwXs">Evildea</Link>,
+    <Link href="https://www.youtube.com/watch?v=UU0TCz9DwXs">
+      Evildea's YT. Fluent EO speaker
+    </Link>,
   ];
 
   return (
@@ -40,10 +42,7 @@ const Esperanto = () => {
               <li key={link}>{link}</li>
             ))}
           </ul>
-        </div>{" "}
-        <p className={styles.blurb}>
-          More Esperanto content and links to be added, soon.
-        </p>
+        </div>
       </div>
       <div className={styles.card}>
         <Image
