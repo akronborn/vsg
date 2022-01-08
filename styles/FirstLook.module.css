@@ -45,3 +45,32 @@
 .image {
   border-radius: 50%;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button {
+    margin: 20px 0px;
+  }
+
+  .image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+  }
+}
