@@ -11,9 +11,7 @@ const Footer = () => {
         <h1 className={styles.title}>Verda Stelo Gaming</h1>
         <div className={styles.link}>
           <a href="/contact" passHref>
-            <span className={styles.reach}>
-              Post an event or just reach out
-            </span>
+            <span className={styles.reach}>Reach out or post an event</span>
             <Image src={button} alt="link button" width="40px" height="40px" />
           </a>
         </div>
