@@ -9,7 +9,7 @@
   border-style: inset;
   /* font-weight: bold; */
   font-family: Georgia, "Times New Roman", Times, serif;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .p {

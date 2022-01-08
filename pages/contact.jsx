@@ -18,7 +18,6 @@ const contact = () => {
 
       <div className={styles.image}>
         <h2 className={styles.p}>Contact the Admin </h2>
-
         <form onSubmit={handleSubmit} className={styles.form}>
           <label htmlFor="email" className={styles.label}>
             Email Address
@@ -34,9 +33,7 @@ const contact = () => {
             id="message"
             name="message"
             className={styles.textarea}
-            placeholder={
-              "If you'd like an event posted, please provide the date, time, platform, and any contact information (if necessary). "
-            }
+            placeholder={"Leave a message"}
           />
           <ValidationError
             prefix="Message"
@@ -51,6 +48,7 @@ const contact = () => {
             Submit
           </button>
         </form>
+        <p className={styles.p}>Send event info or just reach out.</p>
       </div>
     </div>
   );
