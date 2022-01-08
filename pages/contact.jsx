@@ -17,7 +17,7 @@ const contact = () => {
       </Head>
 
       <div className={styles.image}>
-        <h2 className={styles.p}>Contact the Admin </h2>
+        <h2 className={styles.p}>Contact the Admin</h2>
         <form onSubmit={handleSubmit} className={styles.form}>
           <label htmlFor="email" className={styles.label}>
             Email Address
@@ -48,7 +48,9 @@ const contact = () => {
             Submit
           </button>
         </form>
-        <p className={styles.p}>Send event info or just reach out.</p>
+        <p className={styles.p}>
+          Send event info or just reach out. --Clotia JoHari
+        </p>
       </div>
     </div>
   );
