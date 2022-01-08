@@ -52,3 +52,19 @@
   margin-bottom: 20px;
   color: darkgreen;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .title,
+  .link {
+    font-size: 30px;
+  }
+
+  .item {
+    text-align: center;
+  }
+}
