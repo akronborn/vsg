@@ -41,7 +41,6 @@ const FirstLook = () => {
 
       <div className={styles.card}>
         <h1 className={styles.title}>Esperanto</h1>
-        <Image src={eobook} alt="eo book" className={styles.image} />
         <p className={styles.blurb}>
           Esperanto is a constructed language created by L.L. Zamenhof. It's
           many times easier to learn than any 'natural' language and acts as a

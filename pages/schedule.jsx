@@ -11,16 +11,17 @@ const Schedule = () => {
         <meta name="description" content="Schedule information" />
       </Head>
 
-      <div className={styles.container}>
-        <Image src={sched3} alt="schedule image" className={styles.sched} />
-        <div className={styles.card}>
-          <h1 className={styles.title}>
-            <span className={styles.brandName}>Event Schedule</span>
-          </h1>
+      <div>
+        <div className={styles.sched}>
+          <div className={styles.card}>
+            <h1 className={styles.title}>
+              <span className={styles.brandName}>Event Schedule</span>
+            </h1>
 
-          <p className={styles.desc}>
-            No social or gaming events scheduled at this time.
-          </p>
+            <p className={styles.p}>
+              No social or gaming events scheduled at this time.
+            </p>
+          </div>
         </div>
       </div>
     </div>

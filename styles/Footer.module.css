@@ -7,7 +7,10 @@
   padding: 50px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   align-items: center;
+
+  height: 75px;
 }
+
 .primary {
   flex: 2;
 }

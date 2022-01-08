@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 22px;
+  font-size: 24px;
   padding: 0px 100px;
   position: relative;
   overflow: hidden;
@@ -23,9 +23,19 @@
   background-color: rgb(14, 53, 23);
 }
 
+.listItem:hover {
+  font-size: 25px;
+  background-color: rgb(30, 104, 47);
+}
+
+.listItem:active {
+  background-color: rgb(49, 179, 79);
+}
+
 .title:hover {
   text-decoration: underline;
   color: white;
+  font-size: 26px;
 }
 
 .title:active {

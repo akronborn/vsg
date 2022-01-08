@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import eostar from "../public/eostar.png";
+import eobook from "../public/eobook.jpg";
 import styles from "../styles/Esperanto.module.css";
 import Link from "next/link";
 
@@ -30,6 +31,7 @@ const Esperanto = () => {
               (The International Language)
             </span>
           </h1>
+
           <p className={styles.blurb}>
             Esperanto is a constructed language created by L.L. Zamenhof. It's
             many times easier to learn than any 'natural' language and acts as a
