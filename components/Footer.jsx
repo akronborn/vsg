@@ -25,10 +25,10 @@ const Footer = () => {
           FreewillandJustice@gmail.com <br /> (586)209-8832 <br />
           <Link href="https://www.linkedin.com/in/akronborn/">
             Linkedin
-          </Link> | <Link href="https://github.com/akronborn"> Github </Link>
+          </Link> | <Link href="https://github.com/akronborn"> Github </Link>|
           <a href="/contact" passHref>
-            <Image src={button} alt="link button" width="40px" height="40px" />{" "}
-            Reach Out{" "}
+            <Image src={button} alt="link button" width="40px" height="40px" />
+            Contact
           </a>
         </div>
       </div>

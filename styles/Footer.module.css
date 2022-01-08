@@ -22,10 +22,6 @@
   padding: 5px;
   width: max-content;
 }
-.reach {
-  margin-right: 15px;
-  font-size: 20px;
-}
 
 .link {
   color: darkgreen;
@@ -45,12 +41,12 @@
 
 .secondary {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 16px;
   flex: 1;
 }
 
 .item {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   color: darkgreen;
   text-align: center;
 }
