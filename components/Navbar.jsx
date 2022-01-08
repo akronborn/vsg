@@ -16,7 +16,6 @@ const Navbar = () => {
           <Link href="/">
             <span className={styles.title}>Verda Stelo Gaming</span>
           </Link>
-          <Image src={icon1} alt="green star photo" className={styles.image} />
         </a>
       </Link>
       <ul className={styles.list}>
