@@ -17,11 +17,18 @@ const Footer = () => {
             <Image src={button} alt="link button" width="40px" height="40px" />
           </a>
         </div>
-        <div className={styles.item}>2022 AkrnBrn</div>
       </div>
 
       <div className={styles.secondary}>
-        <Image src={contact} alt="contact button" width="40px" height="40px" />
+        <div className={styles.contact}>
+          {" "}
+          <Image
+            src={contact}
+            alt="contact button"
+            width="40px"
+            height="40px"
+          />{" "}
+        </div>
         <div className={styles.item}>
           FreewillandJustice@gmail.com <br /> (586)209-8832 <br />
           <Link href="https://www.linkedin.com/in/akronborn/">

@@ -51,6 +51,11 @@
 .item {
   margin-bottom: 20px;
   color: darkgreen;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
 }
 
 @media screen and (max-width: 480px) {
