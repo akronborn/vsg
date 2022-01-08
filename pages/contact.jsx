@@ -35,7 +35,7 @@ const contact = () => {
             name="message"
             className={styles.textarea}
             placeholder={
-              "If you'd like an event posted, please provide the date, time, platform, and any contact information (if necessary). Feedback is welcome."
+              "If you'd like an event posted, please provide the date, time, platform, and any contact information (if necessary). "
             }
           />
           <ValidationError

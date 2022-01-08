@@ -9,12 +9,6 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.primary}>
         <h1 className={styles.title}>Verda Stelo Gaming</h1>
-        <div className={styles.link}>
-          <a href="/contact" passHref>
-            <span className={styles.reach}>Reach out or post an event</span>
-            <Image src={button} alt="link button" width="40px" height="40px" />
-          </a>
-        </div>
       </div>
 
       <div className={styles.secondary}>
@@ -32,6 +26,10 @@ const Footer = () => {
           <Link href="https://www.linkedin.com/in/akronborn/">
             Linkedin
           </Link> | <Link href="https://github.com/akronborn"> Github </Link>
+          <a href="/contact" passHref>
+            <Image src={button} alt="link button" width="40px" height="40px" />{" "}
+            Reach Out{" "}
+          </a>
         </div>
       </div>
     </div>
