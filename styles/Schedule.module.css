@@ -28,11 +28,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .sched {
-    display: none;
+  .title {
+    color: rgb(157, 196, 166);
   }
-}
-
-.title {
-  color: rgb(157, 196, 166);
 }
