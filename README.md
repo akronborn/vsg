@@ -1,13 +1,11 @@
-Readme in progress..
-
 Verda Stelo Gaming (Green Star Gaming)
 
 Hub for Esperanto Gamers:
 Event schedule
 Real-time Chat
 Esperanto content and links
-
-Technologies: Next.JS/React.JS, Node, Socket.io, CSS, HTML, and a database (TBD)
+Forum (profiles, avatars, emojis) in progress..
+Technologies: Javascript: Next.JS/React.JS, and Node, CSS, HTML, and a couple of small libraries.
 
 Link to VSG Live: https://vsgaming.onrender.com/
 
