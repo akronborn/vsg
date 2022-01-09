@@ -2,7 +2,7 @@
   display: flex;
   color: rgb(9, 34, 15);
   width: 100%;
-  height: 400px;
+  height: 300px;
   font-size: 20px;
   justify-content: center;
   border-style: inset;
@@ -16,4 +16,5 @@
   color: black;
   font-family: system-ui;
   font-weight: lighter;
+  padding-top: 30px;
 }

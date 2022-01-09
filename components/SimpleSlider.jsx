@@ -10,14 +10,14 @@ import styles from "../styles/SimpleSlider.module.css";
 export default class Resizable extends Component {
   state = {
     display: true,
-    width: 600,
-    height: 600,
+    width: 300,
+    height: 300,
   };
   render() {
     const settings = {
       autoplay: true,
       autoplaySpeed: 2000,
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
@@ -25,16 +25,6 @@ export default class Resizable extends Component {
     };
     return (
       <div className={styles.container}>
-        <p className={styles.p}>
-          One Chinese Esperanto speaker described Esperanto as a linguistic
-          handshake. When two people shake hands they both reach out halfway.
-          When two people speak Esperanto they have both made the effort to
-          learn a relatively easy, neutral language instead of one person making
-          the huge effort to learn the other person’s difficult national
-          language and the other person making no effort at all except to
-          correct his/her interlocutor’s errors. ~ Sylvan Zaft
-        </p>
-
         <div
           style={{
             width: this.state.width + "px",

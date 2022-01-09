@@ -1,5 +1,5 @@
 .container {
-  height: 250px;
+  height: 200px;
   border-top: 3px solid #000;
   display: flex;
   justify-content: space-around;
@@ -7,8 +7,6 @@
   padding: 50px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   align-items: center;
-
-  height: 75px;
 }
 
 .primary {
