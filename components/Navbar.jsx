@@ -48,9 +48,6 @@ const Navbar = () => {
         style={{ right: open ? "0px" : "-50vw" }}
       >
         <li className={styles.menuItem}>
-          <Link href="/">VSG</Link>
-        </li>
-        <li className={styles.menuItem}>
           <Link href="/about">About VSK</Link>
         </li>
         <li className={styles.menuItem}>
@@ -59,9 +56,7 @@ const Navbar = () => {
         <li className={styles.menuItem}>
           <Link href="/esperanto">Esperanto</Link>
         </li>
-        <li className={styles.menuItem}>
-          <a href="https://vsg-chat.onrender.com/">Chat</a>
-        </li>
+
         <li className={styles.menuItem}>
           <Link href="/contact">Contact</Link>
         </li>
