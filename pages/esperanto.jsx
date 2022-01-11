@@ -38,7 +38,7 @@ const Esperanto = () => {
           </div>
           <h1>
             <h4 className={styles.title}>
-              EO: La Internacia Lingvo <br />
+              La Internacia Lingvo <br />
               (The International Language)
             </h4>
           </h1>
