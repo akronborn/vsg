@@ -17,12 +17,17 @@
 .blurb {
   font-family: system-ui;
   font-size: 18px;
+  text-align: center;
 }
 
 .link {
   font-family: Georgia, "Times New Roman", Times, serif;
   /* color: rgb(183, 228, 198);
   background-color: white; */
+}
+
+.title {
+  text-align: center;
 }
 
 .image {
@@ -46,6 +51,6 @@
   padding: 15px;
   margin: 0;
   color: #fff;
-  border-radius: 15px;
-  text-align: right;
+  border-radius: 15px 50px;
+  text-align: center;
 }

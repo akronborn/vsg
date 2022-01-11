@@ -24,12 +24,23 @@ const Esperanto = () => {
 
       <div className={styles.container}>
         <div className={styles.card}>
+          <div className={styles.quote}>
+            <p className={styles.text}>
+              One Chinese Esperanto speaker described Esperanto as a linguistic
+              handshake. When two people shake hands they both reach out
+              halfway. When two people speak Esperanto they have both made the
+              effort to learn a relatively easy, neutral language instead of one
+              person making the huge effort to learn the other person’s
+              difficult national language and the other person making no effort
+              at all except to correct his/her interlocutor’s errors. ~Sylvan
+              Zaft
+            </p>
+          </div>
           <h1>
-            <span>
-              {" "}
+            <h4 className={styles.title}>
               EO: La Internacia Lingvo <br />
               (The International Language)
-            </span>
+            </h4>
           </h1>
 
           <p className={styles.blurb}>
@@ -44,18 +55,6 @@ const Esperanto = () => {
               <li key={link}>{link}</li>
             ))}
           </ul>
-          <div className={styles.quote}>
-            <p className={styles.text}>
-              One Chinese Esperanto speaker described Esperanto as a linguistic
-              handshake. When two people shake hands they both reach out
-              halfway. When two people speak Esperanto they have both made the
-              effort to learn a relatively easy, neutral language instead of one
-              person making the huge effort to learn the other person’s
-              difficult national language and the other person making no effort
-              at all except to correct his/her interlocutor’s errors. ~Sylvan
-              Zaft
-            </p>
-          </div>
         </div>
       </div>
     </div>
