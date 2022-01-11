@@ -48,7 +48,9 @@ const Esperanto = () => {
             many times easier to learn than any 'natural' language and acts as a
             bridge of communication between individuals who speak two different
             native tongues.
-            <h2>Links to free learning materials and resources: </h2>
+            <h2 className={styles.resources}>
+              Links to free learning materials and resources:
+            </h2>
           </p>
           <ul>
             {links.map((link) => (
