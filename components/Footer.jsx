@@ -23,15 +23,12 @@ const Footer = () => {
         <div className={styles.item}>
           FreewillandJustice@gmail.com <br /> (586)209-8832 <br />
           <div className={styles.info}>
-            <Link href="https://www.linkedin.com/in/akronborn/">Linkedin</Link>{" "}
+            <Image src={button} alt="link button" width="40px" height="40px" />
+            <Link href="https://www.linkedin.com/in/akronborn/">
+              Linkedin
+            </Link>{" "}
             | <Link href="https://github.com/akronborn"> Github </Link>|
             <a href="/contact" passHref>
-              <Image
-                src={button}
-                alt="link button"
-                width="40px"
-                height="40px"
-              />
               Contact
             </a>
           </div>
