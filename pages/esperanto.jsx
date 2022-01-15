@@ -36,12 +36,11 @@ const Esperanto = () => {
               Zaft
             </p>
           </div>
-          <h1>
-            <h4 className={styles.title}>
-              La Internacia Lingvo <br />
-              (The International Language)
-            </h4>
-          </h1>
+
+          <h4 className={styles.title}>
+            La Internacia Lingvo <br />
+            (The International Language)
+          </h4>
 
           <p className={styles.blurb}>
             Esperanto is a constructed language created by L.L. Zamenhof. It's
