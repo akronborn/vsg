@@ -57,6 +57,17 @@
   box-shadow: 5px 5px #888888;
 }
 
+.chat:active {
+  font-size: 26px;
+  box-shadow: 5px 5px #d3d1d1;
+}
+
+.chat:hover {
+  font-size: 26px;
+  box-shadow: 5px 5px #d3d1d1;
+  font-weight: bolder;
+}
+
 .hamburger {
   display: none;
   width: 25px;
