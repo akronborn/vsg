@@ -20,12 +20,6 @@
   text-align: center;
 }
 
-.link {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  /* color: rgb(183, 228, 198);
-  background-color: white; */
-}
-
 .title {
   text-align: center;
 }
@@ -59,17 +53,22 @@
   text-align: center;
 }
 
+.li {
+  margin-left: 20px;
+}
+
 .li:active {
   font-size: 31px;
   color: blue;
-  text-decoration: dotted;
 }
 
 .li:hover {
   font-size: 31px;
   color: blue;
-  text-decoration: dotted;
 }
 
 @media screen and (max-width: 480px) {
+  .li {
+    margin-left: 5px;
+  }
 }

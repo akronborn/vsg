@@ -63,12 +63,10 @@
 
 .info:active {
   font-size: 17px;
-  text-shadow: 0 0 3px #535553;
 }
 
 .info:hover {
   font-size: 17px;
-  text-shadow: 0 0 3px #919491;
 }
 
 @media screen and (max-width: 480px) {
