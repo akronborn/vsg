@@ -41,6 +41,17 @@
   cursor: pointer;
 }
 
+.button:active {
+  font-size: 22px;
+  background-color: rgb(18, 66, 30);
+}
+
+.button:hover {
+  font-size: 22px;
+  background-color: rgb(18, 66, 30);
+  text-shadow: 2px 2px 4px #ffff;
+}
+
 .blurb {
   font-family: system-ui;
   font-size: 16px;

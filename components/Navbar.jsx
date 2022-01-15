@@ -20,7 +20,7 @@ const Navbar = () => {
       </Link>
       <ul className={styles.list}>
         <li className={styles.listItem}>
-          <Link href="/about">About VSK</Link>
+          <Link href="/about">About</Link>
         </li>
         <li className={styles.listItem}>
           <Link href="/schedule">Schedule</Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
         style={{ right: open ? "0px" : "-50vw" }}
       >
         <li className={styles.menuItem}>
-          <Link href="/about">About VSK</Link>
+          <Link href="/about">About</Link>
         </li>
         <li className={styles.menuItem}>
           <Link href="/schedule">Schedule</Link>
