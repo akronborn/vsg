@@ -8,7 +8,11 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.primary}>
-        <h1 className={styles.title}>Verda Stelo Gaming</h1>
+        <Link href="/">
+          <a>
+            <h1 className={styles.title}>Verda Stelo Gaming</h1>
+          </a>
+        </Link>
       </div>
 
       <div className={styles.secondary}>
