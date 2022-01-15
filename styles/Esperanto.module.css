@@ -62,11 +62,13 @@
 .li:active {
   font-size: 31px;
   color: red;
+  text-decoration: dotted;
 }
 
 .li:hover {
   font-size: 31px;
-  color: red;
+  color: blue;
+  text-decoration: dotted;
 }
 
 @media screen and (max-width: 480px) {
