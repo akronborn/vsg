@@ -32,7 +32,9 @@ const FirstLook = () => {
       <div className={styles.card}>
         <h1 className={styles.title}>Schedule</h1>
         <p className={styles.blurb}>
-          No gaming/social events scheduled at this time.
+          No events scheduled at this time.
+          <h4>Non-VSG event:</h4>
+          107th World Esperanto Congress, Montreal, Aug 6-13th, 22.
         </p>
         <Link href="/schedule">
           <button className={styles.button}>Current events..</button>

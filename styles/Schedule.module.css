@@ -27,6 +27,18 @@
   width: 100%;
 }
 
+.vsgEvent {
+  padding: 10px;
+  text-decoration: underline;
+  color: black;
+  display: inline-block;
+}
+
+.vsgEvent:hover {
+  color: blue;
+  border: 5px;
+}
+
 @media screen and (max-width: 480px) {
   .title {
     color: rgb(157, 196, 166);
