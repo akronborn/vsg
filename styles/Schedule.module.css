@@ -39,6 +39,11 @@
   border: 5px;
 }
 
+.vsgEvent:active {
+  color: blue;
+  border: 5px;
+}
+
 @media screen and (max-width: 480px) {
   .title {
     color: rgb(157, 196, 166);
