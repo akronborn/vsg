@@ -21,9 +21,15 @@
   font-family: "reenie beanie", cursive, Georgia;
   padding: 5px;
   width: max-content;
+  font-size: 30px;
 }
 
 .title:hover {
+  font-weight: bold;
+  padding: 7px;
+}
+
+.title:active {
   font-weight: bold;
   padding: 7px;
 }
@@ -72,11 +78,6 @@
   .container {
     height: auto;
     flex-direction: column;
-  }
-
-  .title,
-  .link {
-    font-size: 30px;
   }
 
   .item {
