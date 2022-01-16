@@ -1,6 +1,5 @@
 .container {
   height: 200px;
-  border-top: 3px solid #000;
   display: flex;
   justify-content: space-around;
   font-size: 18px;
@@ -22,6 +21,11 @@
   font-family: "reenie beanie", cursive, Georgia;
   padding: 5px;
   width: max-content;
+}
+
+.title:hover {
+  font-weight: bold;
+  padding: 7px;
 }
 
 .link {
@@ -58,15 +62,10 @@
 
 .info {
   color: inherit;
-  text-decoration: none;
-}
-
-.info:active {
-  font-size: 17px;
 }
 
 .info:hover {
-  font-size: 17px;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 480px) {

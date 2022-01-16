@@ -1,14 +1,18 @@
 .container {
   display: flex;
   height: 30px;
+  width: 100%;
+  padding: 0px;
   background-color: rgb(253, 255, 253);
   color: rgb(18, 49, 25);
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
   font-size: 20px;
+  font-weight: bolder;
   justify-content: center;
-  border-style: inset;
+  border-style: ridge;
+  border-color: rgb(224, 252, 233);
   /* font-weight: bold; */
   font-family: Georgia, "Times New Roman", Times, serif;
 }
