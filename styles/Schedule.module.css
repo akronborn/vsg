@@ -28,10 +28,10 @@
 }
 
 .vsgEvent {
-  padding: 10px;
   text-decoration: underline;
   color: black;
   display: inline-block;
+  cursor: pointer;
 }
 
 .vsgEvent:hover {

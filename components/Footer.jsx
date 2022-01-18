@@ -17,17 +17,12 @@ const Footer = () => {
 
       <div className={styles.secondary}>
         <div className={styles.contact}>
-          <Image
-            src={contact}
-            alt="contact button"
-            width="40px"
-            height="40px"
-          />
+          <Image src={contact} alt="contact icon" width="40px" height="40px" />
         </div>
         <div className={styles.item}>
           FreewillandJustice@gmail.com <br /> (586)209-8832 <br />
           <div className={styles.info}>
-            <Image src={button} alt="link button" width="40px" height="40px" />
+            <Image src={button} alt="link icon" width="40px" height="40px" />
             <Link href="https://www.linkedin.com/in/akronborn/">
               Linkedin
             </Link>{" "}
