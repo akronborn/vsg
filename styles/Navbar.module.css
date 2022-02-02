@@ -78,7 +78,7 @@
 .api {
   background: linear-gradient(rgb(183, 228, 198), rgb(14, 53, 23));
   display: inline;
-  margin-right: 15px;
+  margin-right: 10px;
   font-size: 18px;
   color: rgb(250, 245, 245);
   cursor: pointer;
@@ -161,6 +161,6 @@
   }
 
   .api {
-    margin: 15px;
+    margin: 5px;
   }
 }

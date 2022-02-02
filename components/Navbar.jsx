@@ -50,6 +50,9 @@ const Navbar = () => {
         <li className={styles.api}>
           <a href="/api/auth/login">Login </a>
         </li>
+        <li className={styles.api}>
+          <a href="/api/auth/logout">Logout</a>
+        </li>
       </ul>
 
       <div className={styles.hamburger} onClick={() => setOpen(!open)}>
