@@ -12,6 +12,14 @@
   overflow: hidden;
 }
 
+.logobig {
+  display: block;
+}
+
+.logosmall {
+  display: none;
+}
+
 .listItem {
   display: inline;
   margin-right: 30px;
@@ -53,18 +61,41 @@
   cursor: pointer;
   border-radius: 5px;
   padding: 5px;
-  font-family: "reenie beanie";
-  box-shadow: 5px 5px #888888;
+  font-family: "reenie beanie", cursive;
+  box-shadow: 5px 4px #888888;
 }
 
 .chat:active {
-  font-size: 26px;
-  box-shadow: 5px 5px #d3d1d1;
+  font-size: 25px;
+  color: white;
 }
 
 .chat:hover {
-  font-size: 26px;
-  box-shadow: 5px 5px #d3d1d1;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgb(94, 89, 89);
+}
+
+.api {
+  background: linear-gradient(rgb(183, 228, 198), rgb(14, 53, 23));
+  display: inline;
+  margin-right: 30px;
+  font-size: 18px;
+  color: rgb(250, 245, 245);
+  cursor: pointer;
+  /* box-shadow: 3px 3px #888888; */
+  border-radius: 5px;
+  padding: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.api:hover {
+  font-size: 19px;
+  background-color: rgb(18, 66, 30);
+  text-shadow: 2px 2px 4px #ffff;
+}
+
+.api:active {
+  background-color: rgb(49, 179, 79);
 }
 
 .hamburger {
@@ -117,5 +148,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  .logobig {
+    display: none;
+  }
+
+  .logosmall {
+    display: block;
+    font-size: 30px;
+  }
+
+  .api {
+    margin: 15px;
   }
 }
