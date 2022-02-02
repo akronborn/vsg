@@ -3,9 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Navbar.module.css";
 import icon3 from "../public/icon3.png";
+import React from "react";
+import { useUser } from "@auth0/nextjs-auth0";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const { user } = useUser();
 
   return (
     <div className={styles.container}>
@@ -47,12 +50,16 @@ const Navbar = () => {
         <li className={styles.api}>
           <a href="https://vsg-chat.onrender.com/">Chat</a>
         </li>
-        <li className={styles.api}>
-          <a href="/api/auth/login">Login </a>
-        </li>
-        <li className={styles.api}>
-          <a href="/api/auth/logout">Logout</a>
-        </li>
+
+        {user ? (
+          <li className={styles.api}>
+            <a href="/api/auth/logout">Logout</a>
+          </li>
+        ) : (
+          <li className={styles.api}>
+            <a href="/api/auth/login">Login </a>
+          </li>
+        )}
       </ul>
 
       <div className={styles.hamburger} onClick={() => setOpen(!open)}>
