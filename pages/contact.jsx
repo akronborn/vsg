@@ -12,8 +12,11 @@ const contact = () => {
   return (
     <div>
       <Head>
-        <title>Contact Page</title>
-        <meta name="description" content="Contact information" />
+        <title>VSG Contact Page</title>
+        <meta
+          name="description"
+          content="Contact page for Verda Stelo Gaming administrator"
+        />
       </Head>
 
       <div className={styles.image}>

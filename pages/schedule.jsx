@@ -10,8 +10,8 @@ const Schedule = () => {
   return (
     <div>
       <Head>
-        <title>Schedule Page</title>
-        <meta name="description" content="Schedule information" />
+        <title>Verda Stelo Gaming Schedule Page</title>
+        <meta name="description" content="Schedule of Esperanto Events" />
       </Head>
 
       <div>

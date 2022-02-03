@@ -6,8 +6,11 @@ const About = () => {
   return (
     <div>
       <Head>
-        <title>About Page</title>
-        <meta name="description" content="Info about  VSG" />
+        <title>Verda Stelo Gaming About Page</title>
+        <meta
+          name="description"
+          content="Information about Verda Stelo Gaming"
+        />
       </Head>
       <div className={styles.image}>
         <div className={styles.p}>

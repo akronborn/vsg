@@ -10,6 +10,10 @@ const Esperanto = () => {
     <Link href="http://lernu.net">Lernu.net</Link>,
     <Link href="https://www.duolingo.com">Duolingo</Link>,
     <Link href="https://www.reddit.com/r/Esperanto/">Esperanto Reddit</Link>,
+    <Link href="https://www.peppercarrot.com/eo/">
+      Pipro kaj Karocxjo (Pepper & Carrot) Comic, On-going and in many languages
+      languages
+    </Link>,
     <Link href="https://www.youtube.com/watch?v=UU0TCz9DwXs">
       Evildea's YT. Fluent EO speaker
     </Link>,
@@ -18,7 +22,7 @@ const Esperanto = () => {
   return (
     <div>
       <Head>
-        <title>Esperanto Page</title>
+        <title>VSG Esperanto Page</title>
         <meta name="description" content="Esperanto information" />
       </Head>
 

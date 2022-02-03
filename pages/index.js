@@ -7,10 +7,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Verda Stelo Gaming</title>
+        <title>Verda Stelo Gaming Home Page</title>
         <meta
           name="description"
           content=" VSG is a gathering place for Esperanto speaking (and learning) gamers"
+        />
+        <meta
+          name="keywords"
+          content="html, css, next.js, javascript, Esperanto, Gaming"
         />
         <link rel="icon" href="/favicon.ico" />
 
