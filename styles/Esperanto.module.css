@@ -10,7 +10,6 @@
 .card {
   flex: 1;
   padding: 15px;
-
   position: relative;
 }
 
@@ -20,12 +19,21 @@
   text-align: center;
 }
 
+.relink {
+  text-align: left;
+}
+
 .title {
   text-align: center;
 }
 
-.image {
-  border-radius: 50%;
+.zamage {
+  /* border-radius: 50%; */
+  width: 160px;
+  height: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .book {
@@ -41,6 +49,7 @@
 
 .resources {
   text-align: left;
+  padding-bottom: 20px;
 }
 
 .text {
