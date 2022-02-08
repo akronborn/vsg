@@ -3,9 +3,6 @@ import Image from "next/image";
 import icon3 from "../public/icon3.png";
 import icon1 from "../public/icon1.png";
 import Link from "next/link";
-import eobook from "../public/eobook.jpg";
-
-import gaming from "../public/gaming.jpg";
 
 const FirstLook = () => {
   return (

@@ -16,7 +16,7 @@ const TagLine = () => {
         {user ? (
           <div>
             <li className={styles.api}>
-              <a href="/api/auth/me">Profile</a>
+              <a href="/profile">Profile</a>
             </li>
             <li className={styles.api}>
               <a href="/api/auth/logout">Logout</a>
