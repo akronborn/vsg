@@ -10,9 +10,40 @@
   padding-bottom: 25px;
   font-size: 20px;
   font-weight: bolder;
-  justify-content: center;
   border-style: ridge;
   border-color: rgb(224, 252, 233);
-  /* font-weight: bold; */
+  justify-content: space-evenly;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+.tagline {
+  justify-content: center;
+}
+
+.links {
+  justify-content: right;
+}
+
+.api {
+  background: linear-gradient(rgb(183, 228, 198), rgb(14, 53, 23));
+  display: inline;
+  margin-right: 10px;
+  font-size: 16px;
+  color: rgb(250, 245, 245);
+  cursor: pointer;
+  box-shadow: 2px 2px #888888;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: right;
+  text-align: center;
+}
+
+.api:hover {
+  font-size: 17px;
+  background-color: rgb(18, 66, 30);
+  text-shadow: 2px 2px 4px #ffff;
+}
+
+.api:active {
+  background-color: rgb(49, 179, 79);
 }
