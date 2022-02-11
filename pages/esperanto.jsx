@@ -16,6 +16,7 @@ const Esperanto = () => {
     <Link href="https://www.youtube.com/watch?v=UU0TCz9DwXs">
       Evildea's YT. Fluent EO speaker
     </Link>,
+    <Link href="https://espera-mondo.net/">Esperanto Minecraft Server</Link>,
   ];
 
   return (
