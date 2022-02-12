@@ -64,15 +64,19 @@
 
 .contact {
   text-align: center;
+  color: rgb(10, 10, 10);
+  font-size: 16px;
+  text-decoration: rgb(51, 94, 78);
+  font-weight: bold;
 }
 
 .contact:hover {
   font-weight: bolder;
-  text-shadow: 2px, 2px, #72b191;
-}
-
-.contact:active {
-  font-weight: bolder;
+  text-shadow: 2px, 2px, #eee8cf;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .info {
