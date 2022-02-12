@@ -68,6 +68,7 @@
   font-size: 16px;
   text-decoration: rgb(51, 94, 78);
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .contact:hover {
@@ -77,6 +78,7 @@
   background-color: black;
   padding: 5px;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .info {
