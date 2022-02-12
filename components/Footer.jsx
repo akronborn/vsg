@@ -17,19 +17,22 @@ const Footer = () => {
 
       <div className={styles.secondary}>
         <div className={styles.contact}>
-          <Image src={contact} alt="contact icon" width="40px" height="40px" />
+          <Link href="/contact">
+            <Image
+              src={contact}
+              alt="contact icon"
+              width="40px"
+              height="40px"
+            />
+          </Link>
+          Send inquiries and feedback
         </div>
         <div className={styles.item}>
-          FreewillandJustice@gmail.com <br /> (586)209-8832 <br />
           <div className={styles.info}>
             <Image src={button} alt="link icon" width="40px" height="40px" />
             <Link href="https://www.linkedin.com/in/akronborn/">
               Linkedin
-            </Link>{" "}
-            | <Link href="https://github.com/akronborn"> Github </Link>|
-            <a href="/contact" passHref>
-              Contact
-            </a>
+            </Link>| <Link href="https://github.com/akronborn"> Github </Link>
           </div>
         </div>
       </div>

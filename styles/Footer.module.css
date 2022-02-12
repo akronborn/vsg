@@ -66,6 +66,15 @@
   text-align: center;
 }
 
+.contact:hover {
+  font-weight: bolder;
+  text-shadow: 2px, 2px, #72b191;
+}
+
+.contact:active {
+  font-weight: bolder;
+}
+
 .info {
   color: inherit;
 }

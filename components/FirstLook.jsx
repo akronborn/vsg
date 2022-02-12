@@ -19,7 +19,8 @@ const FirstLook = () => {
           Verda Stelo Gaming (Green Star Gaming) is an online platform that
           brings together Esperanto speaking gamers, who play a variety of
           games. Events are hosted and posted, there's a chat, information on
-          Esperanto and how to learn it, and, soon, a forum.
+          Esperanto and how to learn it, and, soon, direct messaging between
+          users.
         </p>
         <Link href="/about">
           <button className={styles.button}>Learn more..</button>

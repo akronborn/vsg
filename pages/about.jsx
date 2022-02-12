@@ -19,9 +19,9 @@ const About = () => {
             Verda Stelo Gaming (Green Star Gaming) is an online platform that
             brings together Esperanto speaking gamers, who play a variety of
             games. Events are hosted and posted, there's a chat, information on
-            Esperanto and how to learn it, and, soon, a forum and game specific
-            content (Steam API). I'm partial to driving simulators like American
-            Truck Simulator, myself!
+            Esperanto and how to learn it, and, soon, direct messaging between
+            users and game specific content via APIs. I'm partial to driving
+            simulators like American Truck Simulator, myself!
           </div>
         </div>
       </div>
