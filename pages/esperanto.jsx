@@ -58,8 +58,8 @@ const Esperanto = () => {
             </h2>
           </p>
           <ul className={styles.resources}>
-            {links.map((link) => (
-              <li key={link} className={styles.li}>
+            {links.map((link, i) => (
+              <li key={i} className={styles.li}>
                 {link}
               </li>
             ))}
