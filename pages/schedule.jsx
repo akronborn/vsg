@@ -25,8 +25,8 @@ const Schedule = () => {
             </p>
             <h2>Non-VSG Events</h2>
             <p className={styles.p}>
-              108th annual World Esperanto Congress July 29 - August 5, 2023
-              Turin (Torino), Italy
+              108th annual <b>World Esperanto Congress</b> July 29 - August 5,
+              2023 Turin (Torino), Italy
             </p>
             Link:
             <div className={styles.vsgEvent}>

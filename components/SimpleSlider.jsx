@@ -5,6 +5,7 @@ import gaming1 from "../public/carousel/gaming1.jpg";
 import gaming2 from "../public/carousel/gaming2.png";
 import gaming3 from "../public/carousel/gaming3.jpg";
 import gaming4 from "../public/carousel/gaming4.jpg";
+import gaming5 from "../public/carousel/gaming5.png";
 import styles from "../styles/SimpleSlider.module.css";
 
 export default class Resizable extends Component {
@@ -34,6 +35,9 @@ export default class Resizable extends Component {
           <Slider {...settings}>
             <div>
               <Image src={gaming3} alt="Android photo" />
+            </div>
+            <div>
+              <Image src={gaming5} alt="IOSphoto" />
             </div>
             <div>
               <Image src={gaming1} alt="XBox photo" />
