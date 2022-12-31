@@ -76,6 +76,22 @@
   color: blue;
 }
 
+.spotlight {
+  color: rgb(243, 247, 244);
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: rgb(126, 212, 141);
+  text-align: center;
+}
+.spothead {
+  text-shadow: 3px 3px #72b191;
+}
+
+.title {
+  color: black;
+}
+
 @media screen and (max-width: 480px) {
   .li {
     margin-left: 5px;

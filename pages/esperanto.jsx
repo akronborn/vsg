@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import zamenhof from "../public/zamenhof.jpg";
+import msmith from "../public/content/msmith.jpg";
 import styles from "../styles/Esperanto.module.css";
 import Link from "next/link";
 
@@ -64,6 +65,28 @@ const Esperanto = () => {
               </li>
             ))}
           </ul>
+          <div className={styles.spotlight}>
+            <h1 className={styles.spothead}>Spotlight</h1>
+            <div className={styles.card}>
+              <h3 className={styles.title}>
+                Myrtis Smith: Author of several Esperanto dual readers and other
+                EO materials.
+              </h3>
+              <Image src={msmith} alt="photo of Myrtis Smith" /> <br></br>
+              <Link href="https://www.amazon.com/stores/author/B00DSVCPJ2">
+                Click here: Amazon Profile Page
+              </Link>
+              <p className={styles.highlight}></p>
+            </div>
+            <div className={styles.card}>
+              <h3 className={styles.title}></h3>
+              <p className={styles.highlight}></p>
+            </div>
+            <div className={styles.card}>
+              <h3 className={styles.title}></h3>
+              <p className={styles.highlight}></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
