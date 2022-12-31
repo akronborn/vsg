@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Schedule = () => {
   const congress =
-    "https://esperanto2022.ca/en/world-esperanto-congress/#:~:text=From%20August%206th%20to%20August,postponed%20because%20of%20the%20pandemic.";
+    "https://convention.turismotorino.org/en/news/turin-host-108th-world-esperanto-congress-0";
   return (
     <div>
       <Head>
@@ -25,12 +25,12 @@ const Schedule = () => {
             </p>
             <h2>Non-VSG Events</h2>
             <p className={styles.p}>
-              107th annual World Esperanto Congress will take place in Montreal,
-              Canada from August 6th-13th 2022
+              108th annual World Esperanto Congress July 29 - August 5, 2023
+              Turin (Torino), Italy
             </p>
             Link:
             <div className={styles.vsgEvent}>
-              <Link href={congress}> Montreal</Link>
+              <Link href={congress}>Turin</Link>
             </div>
           </div>
         </div>

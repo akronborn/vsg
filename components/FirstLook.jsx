@@ -32,7 +32,7 @@ const FirstLook = () => {
         <p className={styles.blurb}>
           No events scheduled at this time.
           <h4>Non-VSG event:</h4>
-          107th World Esperanto Congress, Montreal, Aug 6-13th, 22.
+          108th World Esperanto Congress, 7/29-8/5/2023,Turin, Italy.
         </p>
         <Link href="/schedule">
           <button className={styles.button}>Current events..</button>
