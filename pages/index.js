@@ -10,7 +10,7 @@ export default function Home() {
         <title>Verdaj Stelaj Gajnoj Home Page</title>
         <meta
           name="description"
-          content=" VSG is a gathering place for Esperanto speaking (and learning) gamers"
+          content=" VSG is a gathering place for Esperanto speakers and learners."
         />
         <meta
           name="keywords"

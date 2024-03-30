@@ -17,10 +17,11 @@ const FirstLook = () => {
         </h1>
         <p className={styles.blurb}>
           Verdaj Stelaj Gajnoj (Green Star Gains) is an online platform that
-          brings together Esperanto speaking gamers, who play a variety of
-          games. Events are hosted and posted, there's a chat, information on
-          Esperanto and how to learn it, and, soon, direct messaging between
-          users.
+          brings together Esperanto speakers and learners who'd like to improve
+          their language skills and connect with those in the same boat, who
+          play a variety of games. Events are hosted and posted, there's a chat,
+          and information on Esperanto and how to learn it. More features and
+          content coming, imminently. Spring 2024
         </p>
         <Link href="/about">
           <button className={styles.button}>Learn more..</button>
@@ -32,7 +33,7 @@ const FirstLook = () => {
         <p className={styles.blurb}>
           No events scheduled at this time.
           <h4>Non-VSG event:</h4>
-          108th World Esperanto Congress, 7/29-8/5/2023,Turin, Italy.
+          Retoso 2024, April 26-29
         </p>
         <Link href="/schedule">
           <button className={styles.button}>Current events..</button>
