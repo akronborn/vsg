@@ -10,7 +10,7 @@ const Footer = () => {
       <div className={styles.primary}>
         <Link href="/">
           <a>
-            <h1 className={styles.title}>Verda Stelo Gaming</h1>
+            <h1 className={styles.title}>Verdaj Stelaj Gajnoj</h1>
           </a>
         </Link>
       </div>

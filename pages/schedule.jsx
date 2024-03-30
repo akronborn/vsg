@@ -5,12 +5,11 @@ import sched3 from "../public/sched3.jpg";
 import Link from "next/link";
 
 const Schedule = () => {
-  const congress =
-    "https://convention.turismotorino.org/en/news/turin-host-108th-world-esperanto-congress-0";
+  const retoso = "https://retoso2024.tejo.org/";
   return (
     <div>
       <Head>
-        <title>Verda Stelo Gaming Schedule Page</title>
+        <title>Verdaj Stelaj Gajnojg Schedule Page</title>
         <meta name="description" content="Schedule of Esperanto Events" />
       </Head>
 
@@ -25,12 +24,12 @@ const Schedule = () => {
             </p>
             <h2>Non-VSG Events</h2>
             <p className={styles.p}>
-              <b> 108th</b> annual <b>World Esperanto Congress</b> July 29 -
-              August 5, 2023 Turin (Torino), Italy
+              <b> Virtual/Online Events! </b> <b> RETOSO 2024 </b>
+              April 26-29 TEJO Event
             </p>
             Link:
             <div className={styles.vsgEvent}>
-              <Link href={congress}>Turin</Link>
+              <Link href={retoso}>Retoso</Link>
             </div>
           </div>
         </div>

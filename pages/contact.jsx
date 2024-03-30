@@ -15,7 +15,7 @@ const contact = () => {
         <title>VSG Contact Page</title>
         <meta
           name="description"
-          content="Contact page for Verda Stelo Gaming administrator"
+          content="Contact page for Verdaj Stelaj Gajnoj administrator"
         />
       </Head>
 

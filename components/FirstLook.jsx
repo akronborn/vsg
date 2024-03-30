@@ -16,7 +16,7 @@ const FirstLook = () => {
           </span>
         </h1>
         <p className={styles.blurb}>
-          Verda Stelo Gaming (Green Star Gaming) is an online platform that
+          Verdaj Stelaj Gajnoj (Green Star Gains) is an online platform that
           brings together Esperanto speaking gamers, who play a variety of
           games. Events are hosted and posted, there's a chat, information on
           Esperanto and how to learn it, and, soon, direct messaging between

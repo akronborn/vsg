@@ -1,4 +1,4 @@
-Verda Stelo Gaming (Green Star Gaming)
+Verdaj Stelaj Gajnoj (Green Star Gains)
 
 Hub for Esperanto Gamers:
 Event schedule
@@ -7,6 +7,6 @@ Esperanto content and links
 Direct messaging between users (profiles, avatars, emojis) in progress..
 Technologies: Javascript: Next.JS/React.JS, and Node, Socket.io, CSS, HTML, Auth0, and a few small libraries.
 
-Link to VSG Live: https://vsg-ent.live/
+Link to VSG Live: http:www.vs-gajnoj.com
 
 Link to VSG-Chat: https://vsg-chat.onrender.com/

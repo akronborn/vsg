@@ -6,17 +6,17 @@ const About = () => {
   return (
     <div>
       <Head>
-        <title>Verda Stelo Gaming About Page</title>
+        <title>Verdaj Stelaj Gajnoj About Page</title>
         <meta
           name="description"
-          content="Information about Verda Stelo Gaming"
+          content="Information about Verdaj Stelaj Gajnoj"
         />
       </Head>
       <div className={styles.image}>
         <div className={styles.p}>
           <h3 className={styles.title}>About VSG </h3>
           <div>
-            Verda Stelo Gaming (Green Star Gaming) is an online platform that
+            Verdaj Stelaj Gajnoj (Green Star Gains) is an online platform that
             brings together Esperanto speaking gamers, who play a variety of
             games. Events are hosted and posted, there's a chat, information on
             Esperanto and how to learn it, and, soon, direct messaging between
