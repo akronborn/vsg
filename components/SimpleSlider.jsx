@@ -34,19 +34,33 @@ export default class Resizable extends Component {
         >
           <Slider {...settings}>
             <div>
-              <Image src={gaming3} alt="Android photo" />
+              <Image src={gaming3} 
+              width={500}
+              height={500} alt="Android photo" />
             </div>
             <div>
-              <Image src={gaming5} alt="IOSphoto" />
+              <Image src={gaming5}
+              width={500}
+              height={500}
+              alt="IOSphoto" />
             </div>
             <div>
-              <Image src={gaming1} alt="XBox photo" />
+              <Image src={gaming1}
+              width={500}
+              height={500}
+              alt="XBox photo" />
             </div>
             <div>
-              <Image src={gaming2} alt="Playstation photo" />
+              <Image src={gaming2} 
+              width={500}
+              height={500}
+              alt="Playstation photo" />
             </div>
             <div>
-              <Image src={gaming4} alt="Board Game photo" />
+              <Image src={gaming4} 
+              width={500}
+              height={500}
+              alt="Board Game photo" />
             </div>
           </Slider>
         </div>
