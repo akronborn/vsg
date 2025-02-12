@@ -1,6 +1,8 @@
 .container {
   display: flex;
   color: rgb(9, 34, 15);
+  width: 300px;
+  height: 300px;
   font-size: 20px;
   justify-content: center;
   /* font-weight: bold; */
