@@ -1,8 +1,12 @@
+
 .sched {
-  background-image: url(../public/sched3.jpg);
+  background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
+  url(../public/sched3.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .p {
