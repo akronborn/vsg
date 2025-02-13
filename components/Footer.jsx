@@ -20,8 +20,8 @@ const Footer = () => {
         <div className={styles.item}>
           <div className={styles.info}>
             <Link href="https://www.linkedin.com/in/akronborn/">
-              Linkedin
-            </Link>| <Link href="https://github.com/akronborn"> Github </Link>
+              Linkedin 
+            </Link> | <Link href="https://github.com/akronborn"> Github </Link>
           </div>
         </div>
       </div>
