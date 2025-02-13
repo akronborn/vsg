@@ -42,11 +42,12 @@ const Esperanto = () => {
             </p>
           </div>
 
+          
+          <div className={styles.zamage}>
           <h3 className={styles.title}>
             La Internacia Lingvo <br />
             (The International Language) <br /> L.L Zamenhof, 1908
           </h3>
-          <div className={styles.zamage}>
             <Image src={zamenhof} alt="photo of LL Zamenhof" />
           </div>
           <p className={styles.blurb}>
