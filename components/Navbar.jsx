@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className={styles.logobig}>
         <Link href="/">
           <a>
-            <Image src={icon3} alt="green star photo" />
+            <Image src={icon3} width={20} height={20}  alt="green star photo" />
             <Link href="/">
               <span className={styles.title}>Verdaj Stelaj Gajnoj</span>
             </Link>
