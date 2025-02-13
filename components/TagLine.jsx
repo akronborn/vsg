@@ -11,7 +11,9 @@ const TagLine = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.tagline}>All Platforms </div>
+      <div className={styles.tagline}>
+        <h2 className={styles.rip}> Renato Corsetti (1941-2025)</h2>
+        </div>
 
       <ul className={styles.links}>
         {user ? (

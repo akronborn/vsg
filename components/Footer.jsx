@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.info}>
-            <Image src={button} alt="link icon" width="40px" height="40px" />
+            <Image src={button} alt="link icon" width="7px" height="7px" />
             <Link href="https://www.linkedin.com/in/akronborn/">
               Linkedin
             </Link>| <Link href="https://github.com/akronborn"> Github </Link>
