@@ -74,7 +74,7 @@ const Esperanto = () => {
               </h3>
               <Image src={msmith} alt="photo of Myrtis Smith" /> <br></br>
               <Link href="https://www.amazon.com/stores/author/B00DSVCPJ2">
-                Click here: Amazon Profile Page
+              <em> Click here: Amazon Profile Page </em>
               </Link>
               <p className={styles.highlight}></p>
             </div>
