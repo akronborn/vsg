@@ -1,6 +1,9 @@
 import Head from "next/head";
 import styles from "../styles/Schedule.module.css";
+import Image from "next/image";
+import sched3 from "../public/sched3.jpg";
 import Link from "next/link";
+
 
 
 const Schedule = () => {
