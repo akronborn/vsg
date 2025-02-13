@@ -69,6 +69,7 @@
   text-decoration: rgb(51, 94, 78);
   font-weight: bold;
   text-decoration: underline;
+  background-color: white;
 }
 
 .contact:hover {
