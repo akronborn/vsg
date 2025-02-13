@@ -16,6 +16,7 @@ const FirstLook = () => {
           </span>
         </h1>
         <p className={styles.blurb}>
+          <p className={styles.RIP}> Renato Corsetti (1941-2025)</p>
           Verdaj Stelaj Gajnoj (Green Star Gains) is an online platform that
           brings together Esperanto speakers and learners who'd like to improve
           their language skills and connect with those in the same boat, who
@@ -33,7 +34,7 @@ const FirstLook = () => {
         <p className={styles.blurb}>
           No events scheduled at this time.
           <h4>Non-VSG event:</h4>
-          Retoso 2024, April 26-29
+          Retoso 2025, April 26-29
         </p>
         <Link href="/schedule">
           <button className={styles.button}>Current events..</button>

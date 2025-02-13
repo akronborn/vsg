@@ -22,6 +22,13 @@
 .contact {
   position: relative;
 }
+
+.RIP {
+  font-size: 15px;
+  text-align: center;
+  text-shadow: 3px 3px #38443e;
+}
+
 .title {
   font-size: 20px;
   margin: 0;
