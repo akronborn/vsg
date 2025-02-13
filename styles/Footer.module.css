@@ -1,5 +1,6 @@
 .container {
-  height: 200px;
+  height: 50x;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   font-size: 18px;
