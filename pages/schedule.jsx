@@ -5,7 +5,8 @@ import sched3 from "../public/sched3.jpg";
 import Link from "next/link";
 
 const Schedule = () => {
-  const retoso = "https://retoso2024.tejo.org/";
+  const chicago = "https://esperanto-chicago.org/2025/";
+  const eventaservo = "eventaservo.org";
   return (
     <div>
       <Head>
@@ -25,11 +26,14 @@ const Schedule = () => {
             <h2>Non-VSG Events</h2>
             <p className={styles.p}>
               <b> Virtual/Online Events! </b> <b> RETOSO 2024 </b>
-              April 26-29 TEJO Event
+              <br> U.S. Monata Kunveno: March, 25th, Harold Washing Library, Chicago, IL </br>
+              <br> 110th World Esperanto Congress, Brno, Czech Republic </br>
             </p>
             Link:
             <div className={styles.vsgEvent}>
-              <Link href={retoso}>Retoso</Link>
+              <Link href={chicago}>Chicago</Link>
+              <Link href={eventaservo}>Eventa Servo</Link>
+              <p>Great source for worldwide EO events ^</p>
             </div>
           </div>
         </div>

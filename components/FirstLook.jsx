@@ -34,7 +34,7 @@ const FirstLook = () => {
         <p className={styles.blurb}>
           No events scheduled at this time.
           <h4>Non-VSG event:</h4>
-          Retoso 2025, April 26-29
+          U.S. Monata Kunveno: March, 25th, Chicago, IL
         </p>
         <Link href="/schedule">
           <button className={styles.button}>Current events..</button>
