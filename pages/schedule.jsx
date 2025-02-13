@@ -24,8 +24,8 @@ const Schedule = () => {
             <h2>Non-VSG Events</h2>
             <p className={styles.p}>
               <b> Virtual/Online Events! </b> <b> RETOSO 2024 </b>
-              <br> U.S. Monata Kunveno: March, 25th, Harold Washing Library, Chicago, IL </br>
-                110th World Esperanto Congress, Brno, Czech Republic
+              U.S. Monata Kunveno: March, 25th, Harold Washing Library, Chicago, IL
+              110th World Esperanto Congress, Brno, Czech Republic
             </p>
             Link:
             <div className={styles.vsgEvent}>
