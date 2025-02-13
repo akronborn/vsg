@@ -3,9 +3,8 @@ import styles from "../styles/Schedule.module.css";
 import Link from "next/link";
 import React from "react";
 
-const Schedule = () => {
+function Schedule() {
   const chicago = "https://esperanto-chicago.org/2025/";
-  const eventaservo = "http://eventaservo.org";
   return (
     <div>
       <Head>
@@ -26,19 +25,19 @@ const Schedule = () => {
             <p className={styles.p}>
               <b> Virtual/Online Events! </b> <b> RETOSO 2024 </b>
               <br> U.S. Monata Kunveno: March, 25th, Harold Washing Library, Chicago, IL </br>
-              <br> 110th World Esperanto Congress, Brno, Czech Republic </br>
+                110th World Esperanto Congress, Brno, Czech Republic
             </p>
             Link:
             <div className={styles.vsgEvent}>
               <Link href={chicago}>Chicago</Link>
-              <Link href={eventaservo}>Eventa Servo</Link>
-              <p>Great source for worldwide EO events ^</p>
+              <Link href="eventaservo.org">Eventa Servo</Link>
+              <p>Great source for worldwide EO events</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Schedule;
