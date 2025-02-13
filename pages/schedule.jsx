@@ -1,9 +1,9 @@
 import Head from "next/head";
 import styles from "../styles/Schedule.module.css";
 import Link from "next/link";
-import React from "react";
 
-function Schedule() {
+
+const Schedule = () => {
   const chicago = "https://esperanto-chicago.org/2025/";
   return (
     <div>
@@ -30,8 +30,6 @@ function Schedule() {
             Link:
             <div className={styles.vsgEvent}>
               <Link href={chicago}>Chicago</Link>
-              <Link href="eventaservo.org">Eventa Servo</Link>
-              <p>Great source for worldwide EO events</p>
             </div>
           </div>
         </div>
