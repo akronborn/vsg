@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import FirstLook from "../components/FirstLook";
-import SimpleSlider from "../components/SimpleSlider";
 
 export default function Home() {
   return (
@@ -30,7 +29,6 @@ export default function Home() {
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </Head>
-      <SimpleSlider />
       <FirstLook />
     </div>
   );
