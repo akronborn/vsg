@@ -53,3 +53,10 @@
 .api:active {
   background-color: rgb(49, 179, 79);
 }
+
+@media screen and (max-width: 480px) {
+  .rip {
+    text-shadow: none;
+  }
+
+}
