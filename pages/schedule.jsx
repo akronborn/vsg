@@ -26,7 +26,7 @@ const Schedule = () => {
             <p className={styles.p}>
               <b> Virtual/Online Events: </b> <br></br>
               U.S. Monata Kunveno: March, 25th, Harold Washing Library, Chicago, IL <br></br>
-              World Esperanto Congress <br></br>
+              <b>World Esperanto Congress </b><br></br>
               110th World Esperanto Congress, Brno, Czech Republic
             </p>
             Link:
