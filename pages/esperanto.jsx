@@ -11,13 +11,13 @@ const Esperanto = () => {
     <Link href="https://www.duolingo.com">Duolingo</Link>,
     <Link href="https://www.reddit.com/r/Esperanto/">Esperanto Reddit</Link>,
     <Link href="https://www.peppercarrot.com/eo/">
-      Pipro kaj Karocxjo (Pepper & Carrot) Comic, On-going and in many languages
-      languages
+      Pipro kaj Karocxjo (Pepper & Carrot) Comic
     </Link>,
     <Link href="https://www.youtube.com/watch?v=UU0TCz9DwXs">
-      Evildea's YT. Fluent EO speaker
+      Evildea's Youtube
     </Link>,
     <Link href="https://espera-mondo.net/">Esperanto Minecraft Server</Link>,
+    <Link href="https://telegramo.org">Telegram Groups</Link>,
   ];
 
   return (
@@ -58,7 +58,7 @@ const Esperanto = () => {
               Links to free learning materials and resources:
             </h2>
           </p>
-          <ul className={styles.resources}>
+          <ul className={styles.button}>
             {links.map((link, i) => (
               <li key={i} className={styles.li}>
                 {link}
