@@ -18,9 +18,9 @@ const FirstLook = () => {
         <p className={styles.blurb}>
           
           Verdaj Stelaj Gajnoj (Green Star Gains) is an online platform that
-          brings together Esperanto speakers and learners who'd like to improve
+          brings together Esperanto speakers and learners who would like to improve
           their language skills and connect with those in the same boat, who
-          play a variety of games. Events are hosted and posted, there's a chat,
+          play a variety of games. Events are hosted and posted, there is a chat,
           and information on Esperanto and how to learn it. More features and
           content coming, imminently. Spring 2024
         </p>
@@ -44,8 +44,8 @@ const FirstLook = () => {
       <div className={styles.card}>
         <h1 className={styles.title}>Esperanto</h1>
         <p className={styles.blurb}>
-          Esperanto is a constructed language created by L.L. Zamenhof. It's
-          many times easier to learn than any 'natural' language and acts as a
+          Esperanto is a constructed language created by L.L. Zamenhof. It is
+          many times easier to learn than any "natural" language and acts as a
           bridge of communication between individuals who speak two different
           native tongues.
         </p>

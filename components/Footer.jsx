@@ -15,7 +15,7 @@ const Footer = () => {
 
       <div className={styles.secondary}>
         <div className={styles.contact}>
-          <Link href="/contact">Send inquiries and feedback</Link>
+          <Link href="/Contact">Send inquiries and feedback</Link>
         </div>
         <div className={styles.item}>
           <div className={styles.info}>

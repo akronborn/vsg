@@ -3,10 +3,10 @@ import styles from "../styles/Contact.module.css";
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
-const contact = () => {
+const Contact = () => {
   const [state, handleSubmit] = useForm("xqknzpby");
   if (state.succeeded) {
-    return <p>Thanks! I'll get back to you shortly!</p>;
+    return <p>Thanks! I will get back to you shortly!</p>;
   }
 
   return (
@@ -59,4 +59,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

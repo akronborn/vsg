@@ -45,7 +45,7 @@ const Navbar = () => {
           <Link href="/esperanto">Esperanto</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/contact">Contact</Link>
+          <Link href="/Contact">Contact</Link>
         </li>
         <li className={styles.api}>
           <a href="https://vsg-chat.onrender.com/">Chat</a>
@@ -77,7 +77,7 @@ const Navbar = () => {
         </li>
 
         <li className={styles.menuItem}>
-          <Link href="/contact">Contact</Link>
+          <Link href="/Contact">Contact</Link>
         </li>
       </ul>
     </div>

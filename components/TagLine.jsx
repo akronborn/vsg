@@ -1,6 +1,6 @@
 import React from "react";
 import { useUser } from "@auth0/nextjs-auth0";
-
+import Link from "next/link";
 import styles from "../styles/TagLine.module.css";
 
 const TagLine = () => {
@@ -19,15 +19,15 @@ const TagLine = () => {
         {user ? (
           <div>
             <li className={styles.api}>
-              <a href="/profile">Profile</a>
+              <Link href="/profile">Profile</Link>
             </li>
             <li className={styles.api}>
-              <a href="/api/auth/logout">Logout</a>
+              <Link href="/api/auth/logout">Logout</Link>
             </li>
           </div>
         ) : (
           <li className={styles.api}>
-            <a href="/api/auth/login">Login </a>
+            <Link href="/api/auth/login">Login </Link>
           </li>
         )}
       </ul>
