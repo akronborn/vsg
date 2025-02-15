@@ -79,8 +79,10 @@ const Esperanto = () => {
               <p className={styles.highlight}></p>
             </div>
             <div className={styles.card}>
-              <h3 className={styles.title}><Link href="www.libro.ee">libro.ee</Link></h3>
-              <p className={styles.highlight}>Cxi tiu retejo enhavas multajn senpagajn librojn </p>
+              <h3 className={styles.title}>Cxi tiu retejo enhavas multajn senpagajn librojn </h3>
+              <Link href="http://libro.ee">libro.ee
+              </Link>
+              <p className={styles.highlight}></p>
             </div>
             <div className={styles.card}>
               <h3 className={styles.title}></h3>
