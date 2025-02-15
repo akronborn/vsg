@@ -7,6 +7,10 @@
   overflow: auto;
 }
 
+a {
+  text-decoration: underline overline #28fff4;;
+}
+
 .card {
   flex: 1;
   padding: 15px;
