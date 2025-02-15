@@ -73,14 +73,14 @@ const Esperanto = () => {
                 EO materials.
               </h3>
               <Image src={msmith} alt="photo of Myrtis Smith" /> <br></br>
-              <Link href="https://www.amazon.com/stores/author/B00DSVCPJ2">
+              <Link className={styles.button} href="https://www.amazon.com/stores/author/B00DSVCPJ2">
               <em> Click here: Amazon Profile Page </em>
               </Link>
               <p className={styles.highlight}></p>
             </div>
             <div className={styles.card}>
               <h3 className={styles.title}>Cxi tiu retejo enhavas multajn senpagajn librojn </h3>
-              <Link href="http://libro.ee">libro.ee
+              <Link className={styles.button} href="http://libro.ee">libro.ee
               </Link>
               <p className={styles.highlight}></p>
             </div>
