@@ -11,7 +11,7 @@ const Esperanto = () => {
     <Link href="https://www.duolingo.com">Duolingo</Link>,
     <Link href="https://www.reddit.com/r/Esperanto/">Esperanto Reddit</Link>,
     <Link href="https://www.peppercarrot.com/eo/">
-      Pipro kaj Karocxjo (Pepper & Carrot) Comic
+      Pipro kaj Karocxjo Comic
     </Link>,
     <Link href="https://www.youtube.com/watch?v=UU0TCz9DwXs">
       Evildea's Youtube
