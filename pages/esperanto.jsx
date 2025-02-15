@@ -58,9 +58,9 @@ const Esperanto = () => {
               Links to free learning materials and resources:
             </h2>
           </p>
-          <ul className={styles.button}>
+          <ul className={styles.resources}>
             {links.map((link, i) => (
-              <li key={i} className={styles.li}>
+              <li key={i} className={styles.button}>
                 {link}
               </li>
             ))}
