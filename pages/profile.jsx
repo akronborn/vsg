@@ -4,7 +4,7 @@ import { useUser, withPageAuthRequired } from "@auth0/nextjs-auth0";
 import Image from "next/image";
 import styles from "../styles/Profile.module.css";
 
-function Profile() {
+const Profile = () => {
   const { user } = useUser();
 
   return (
