@@ -1,9 +1,9 @@
 import Layout from "../components/Layout";
 import "../styles/globals.css";
 import React from "react";
-import { UserProvider } from "@auth0/nextjs-auth0";
+import  { UserProvider }  from "@auth0/nextjs-auth0";
 
-const MyApp = ({ Component, pageProps }) => {
+function MyApp({ Component, pageProps }) {
   return (
     <UserProvider>
       <Layout>

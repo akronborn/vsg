@@ -4,7 +4,7 @@ import { useUser, withPageAuthRequired } from "@auth0/nextjs-auth0";
 import Image from "next/image";
 import styles from "../styles/Profile.module.css";
 
-const Profile = () => {
+function Profile() {
   const { user } = useUser();
 
   return (
@@ -23,7 +23,6 @@ const Profile = () => {
               width={256}
               height={256}
             />
-
             <h2 data-testid="profile-name">{user.nickname}</h2>
             <p className="lead text-muted" data-testid="profile-email">
               {user.email}
@@ -34,7 +33,6 @@ const Profile = () => {
     </>
   );
 }
-
 export default withPageAuthRequired(Profile, {
   Profile,
 });
