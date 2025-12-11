@@ -1,15 +1,15 @@
 import Layout from "../components/Layout";
 import "../styles/globals.css";
 import React from "react";
-import  { UserProvider }  from "@auth0/nextjs-auth0";
+import  { Auth0Provider }  from "@auth0/nextjs-auth0";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <UserProvider>
+    <Auth0Provider>
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </UserProvider>
+    </Auth0Provider>
   );
 }
 
