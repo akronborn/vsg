@@ -7,12 +7,11 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.primary}>
         <Link href="/">
-          <a>
-            <h1 className={styles.title}>Verdaj Stelaj Gajnoj</h1>
-          </a>
+
+          <h1 className={styles.title}>Verdaj Stelaj Gajnoj</h1>
+
         </Link>
       </div>
-
       <div className={styles.secondary}>
         <div className={styles.contact}>
           <Link href="/contact">Send inquiries and feedback</Link>

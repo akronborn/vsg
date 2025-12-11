@@ -14,26 +14,24 @@ const Navbar = () => {
     <div className={styles.container}>
       <div className={styles.logobig}>
         <Link href="/">
-          <a>
-            <Image src={icon3} width={20} height={20}  alt="green star photo" />
-            <Link href="/">
-              <span className={styles.title}>Verdaj Stelaj Gajnoj</span>
-            </Link>
-          </a>
+
+          <Image src={icon3} width={20} height={20}  alt="green star photo" />
+          <Link href="/">
+            <span className={styles.title}>Verdaj Stelaj Gajnoj</span>
+          </Link>
+
         </Link>
       </div>
-
       <div className={styles.logosmall}>
         <Link href="/">
-          <a>
-            <Image src={icon3} alt="green star photo" />
-            <Link href="/">
-              <span className={styles.title}>VSG</span>
-            </Link>
-          </a>
+
+          <Image src={icon3} alt="green star photo" />
+          <Link href="/">
+            <span className={styles.title}>VSG</span>
+          </Link>
+
         </Link>
       </div>
-
       <ul className={styles.list}>
         <li className={styles.listItem}>
           <Link href="/about">About</Link>
@@ -51,13 +49,11 @@ const Navbar = () => {
           <a href="https://vsg-chat.onrender.com/">Chat</a>
         </li>
       </ul>
-
       <div className={styles.hamburger} onClick={() => setOpen(!open)}>
         <div className={styles.line} />
         <div className={styles.line} />
         <div className={styles.line} />
       </div>
-
       <ul
         onClick={() => setOpen(false)}
         className={styles.menu}
