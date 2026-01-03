@@ -52,7 +52,7 @@ const contact = () => {
           </button>
         </form>
         <p className={styles.p}>
-          Send event info or just reach out. --Clotia Johari
+          Send event info or just reach out. --C. Kioni Johari
         </p>
       </div>
     </div>
