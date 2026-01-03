@@ -13,24 +13,16 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logobig}>
-        <Link href="/">
-
-          <Image src={icon3} width={20} height={20}  alt="green star photo" />
           <Link href="/">
-            <span className={styles.title}>Verdaj Stelaj Gajnoj</span>
-          </Link>
-
+          <Image src={icon3} width={20} height={20} alt="green star photo" /> 
+              <span className={styles.title}>VS-Gajnoj</span>
         </Link>
       </div>
       <div className={styles.logosmall}>
-        <Link href="/">
-
           <Image src={icon3} alt="green star photo" />
           <Link href="/">
             <span className={styles.title}>VSG</span>
           </Link>
-
-        </Link>
       </div>
       <ul className={styles.list}>
         <li className={styles.listItem}>

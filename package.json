@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth0/nextjs-auth0": "^4.13.2",
-    "@formspree/react": "^2.5.1",
-    "next": "^16.0.8",
-    "react": "^18.2.0",
-    "react-dom": "18.2.0"
+    "@auth0/nextjs-auth0": "^4.13.3",
+    "@formspree/react": "^3.0.0",
+    "next": "16.0.9",
+    "react": "19.2.2",
+    "react-dom": "19.2.2"
   }
 }

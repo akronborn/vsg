@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { useUser, withPageAuthRequired } from "@auth0/nextjs-auth0";
+import { useUser, withPageAuthRequired } from "@auth0/nextjs-auth0/client";
 import Image from "next/image";
 
 import styles from "../styles/Profile.module.css";

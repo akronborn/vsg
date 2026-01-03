@@ -49,11 +49,7 @@ const Esperanto = () => {
           <div className={styles.zamage}>
          <Image src={zamenhof} alt="photo of LL Zamenhof" />
           </div>
-          <p className={styles.blurb}>
-            Esperanto is a constructed language created by L.L. Zamenhof. It's
-            many times easier to learn than any 'natural' language and acts as a
-            bridge of communication between individuals who speak two different
-            native tongues.
+          <p >
             <h2 className={styles.relink}>
               Links to free learning materials and resources:
             </h2>

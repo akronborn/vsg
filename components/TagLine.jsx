@@ -1,5 +1,5 @@
 import React from "react";
-import { useUser } from "@auth0/nextjs-auth0";
+import { useUser } from "@auth0/nextjs-auth0/client";
 
 import styles from "../styles/TagLine.module.css";
 
@@ -19,15 +19,15 @@ const TagLine = () => {
         {user ? (
           <div>
             <li className={styles.api}>
-              <a href="/profile">Profile</a>
+              <a href="/auth/profile">Profile</a>
             </li>
             <li className={styles.api}>
-              <a href="/api/auth/logout">Logout</a>
+              <a href="/auth/logout">Logout</a>
             </li>
           </div>
         ) : (
           <li className={styles.api}>
-            <a href="/api/auth/login">Login </a>
+            <a href="/auth/login">Login </a>
           </li>
         )}
       </ul>

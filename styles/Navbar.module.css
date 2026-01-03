@@ -24,26 +24,31 @@
   display: inline;
   margin-right: 30px;
   font-size: 24px;
-  color: rgb(183, 228, 198);
+  color: rgb(181, 219, 200);
   cursor: pointer;
   box-shadow: 2px 2px #888888;
   border-radius: 10px;
-  background-color: rgb(14, 53, 23);
+  background-color: #1b4b27;
 }
 
 .listItem:hover {
   font-size: 25px;
-  background-color: rgb(30, 104, 47);
+  background-color: rgb(31, 75, 41);
 }
 
 .listItem:active {
-  background-color: rgb(49, 179, 79);
+  background-color: rgb(25, 83, 38);
+}
+.title {
+font-size: 28px;
+margin-left: 5px;
 }
 
 .title:hover {
   text-decoration: underline;
   color: white;
-  font-size: 26px;
+  font-size: 30px;
+  font-family: Tangerine;
 }
 
 .title:active {
@@ -61,7 +66,7 @@
   cursor: pointer;
   border-radius: 5px;
   padding: 5px;
-  font-family: "reenie beanie", cursive;
+  font-family: Tangerine;
   box-shadow: 5px 4px #888888;
 }
 
@@ -79,17 +84,17 @@
   background: linear-gradient(rgb(183, 228, 198), rgb(14, 53, 23));
   display: inline;
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(250, 245, 245);
   cursor: pointer;
   /* box-shadow: 3px 3px #888888; */
   border-radius: 5px;
   padding: 5px;
-  font-family: "reenie beanie", cursive;
+  font-family: 'arial';
 }
 
 .api:hover {
-  font-size: 21px;
+  font-size: 22px;
   background-color: rgb(18, 66, 30);
   text-shadow: 2px 2px 4px #ffff;
 }

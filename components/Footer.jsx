@@ -8,7 +8,7 @@ const Footer = () => {
       <div className={styles.primary}>
         <Link href="/">
 
-          <h1 className={styles.title}>Verdaj Stelaj Gajnoj</h1>
+          <h1 className={styles.title}>VS-Gajnoj</h1>
 
         </Link>
       </div>
