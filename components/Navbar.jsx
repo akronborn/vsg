@@ -4,12 +4,10 @@ import Image from "next/image";
 import styles from "../styles/Navbar.module.css";
 import icon3 from "../public/icon3.png";
 import React from "react";
-import { useUser } from "@auth0/nextjs-auth0";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const { user } = useUser();
-
+ 
   return (
     <div className={styles.container}>
       <div className={styles.logobig}>
