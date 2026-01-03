@@ -20,7 +20,7 @@
 .form {
   color: white;
   border-radius: 5px;
-  font-size: 24px;
+  font-size: 26px;
   padding: 20px;
   display: block;
   text-align: left;
@@ -47,7 +47,7 @@
   margin-bottom: 16px;
   resize: vertical;
   display: block;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .submit {

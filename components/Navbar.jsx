@@ -24,16 +24,16 @@ const Navbar = () => {
       </div>
       <ul className={styles.list}>
         <li className={styles.listItem}>
-          <Link href="/about">About</Link>
+          <Link href="/about"> About </Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/schedule">Schedule</Link>
+          <Link href="/schedule"> Schedule </Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/esperanto">Esperanto</Link>
+          <Link href="/esperanto"> Esperanto </Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact"> Contact </Link>
         </li>
         <li className={styles.api}>
           <a href="https://vsg-chat.onrender.com/">Chat</a>

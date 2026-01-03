@@ -3,7 +3,7 @@
     url(../public/gaming.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 75vh;
 }
 
 .p {
@@ -12,6 +12,7 @@
   font-size: 30px;
   padding: 25px;
   font-family: "Tangerine", cursive;
+ 
 }
 
 .title {

@@ -49,11 +49,11 @@ const Esperanto = () => {
           <div className={styles.zamage}>
          <Image src={zamenhof} alt="photo of LL Zamenhof" />
           </div>
-          <p >
+          <div >
             <h2 className={styles.relink}>
               Links to free learning materials and resources:
             </h2>
-          </p>
+          </div>
           <ul className={styles.resources}>
             {links.map((link, i) => (
               <li key={i} className={styles.button}>

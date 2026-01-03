@@ -4,9 +4,10 @@
   url(../public/sched3.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 75vh;
   margin: 0;
   padding: 0;
+  
 }
 
 .p {
@@ -16,6 +17,7 @@
   padding: 25px;
   font-family: "Tangerine", cursive;
   background-color: black;
+   height: 75vh;
 }
 
 /* .sched {
